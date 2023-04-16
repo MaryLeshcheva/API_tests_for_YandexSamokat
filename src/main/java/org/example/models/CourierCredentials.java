@@ -1,8 +1,8 @@
 package org.example.models;
 
 public class CourierCredentials {
-    private final String login;
-    private final String password;
+    public final String login;
+    public final String password;
 
     public CourierCredentials(String login, String password) {
         this.login = login;
